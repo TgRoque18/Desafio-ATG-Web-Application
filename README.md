@@ -13,6 +13,8 @@ A página envia dados para a API e a API envia uma requisição para um serviço
 Página Web:
 Essa foi desenvolvida usando Angular CLI, em linguagem TypeScript. A solução envia uma requisição POST para a API C#.
 
+## A API em C#
+Para olhar a API em C# clique no link: https://github.com/TgRoque18/Desafio-ATG-Web-API
 
 # WebApplication
 
