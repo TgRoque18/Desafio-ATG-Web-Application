@@ -1,3 +1,19 @@
+# Desafio ATG
+
+## O desafio.
+
+O desafio resume-se a entregar duas ferramentas:
+- Página Web;
+- API C#;
+
+A página envia dados para a API e a API envia uma requisição para um serviço RabbitMQ.
+
+## O desenvolvimento da pa´gina web com Angular CLI.
+
+Página Web:
+Essa foi desenvolvida usando Angular CLI, em linguagem TypeScript. A solução envia uma requisição POST para a API C#.
+
+
 # WebApplication
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
