@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.form {
+    padding-top: 3%;
+}
+
+.tb-result {
+    width: 50%!important;
+    text-align: center;
+    margin: auto;
+}
+
+.radio-right{
+    margin-left: 10px;
+}
