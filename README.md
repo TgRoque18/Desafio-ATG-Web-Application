@@ -8,7 +8,7 @@ O desafio resume-se a entregar duas ferramentas:
 
 A página envia dados para a API e a API envia uma requisição para um serviço RabbitMQ.
 
-## O desenvolvimento da pa´gina web com Angular CLI.
+## O desenvolvimento da página web com Angular CLI.
 
 Página Web:
 Essa foi desenvolvida usando Angular CLI, em linguagem TypeScript. A solução envia uma requisição POST para a API C#.
