@@ -2,11 +2,11 @@
   <div class="container form">
     <div class="row justify-content-center form-group">
       <label for="radiosSide" class="radio-inline">Compra 
-        <input type="radio" [(ngModel)]="form.side" name="radiosSide" id="buy" value="Compra">
+        <input type="radio" [(ngModel)]="form.side" name="radiosSide" id="buy" value="buy">
       </label>
       
       <label for="radiosSide" class="radio-inline radio-right">Venda       
-        <input type="radio" [(ngModel)]="form.side" name="radiosSide" id="sell" value="Venda">
+        <input type="radio" [(ngModel)]="form.side" name="radiosSide" id="sell" value="shell">
       </label>
     </div>
     <div class="row justify-content-center">
@@ -39,12 +39,16 @@
       <tr>
         <th>Lado</th>
         <th>Símbolo</th>
+        <th>Status</th>
+        <th>Mensagem</th>
       </tr>
     </thead>
     <tbody>    
       <tr *ngFor="let form of forms" id='{{ form.id }}'>
-          <td>{{ form.side }}</td>
-          <td>{{ form.symbol }}</td>
+        <td>{{ form.side }}</td>
+        <td>{{ form.symbol }}</td>
+        <td>{{ form.status }}</td>
+        <td>{{ form.msgs }}</td>
       </tr>
     </tbody>
   </table>
