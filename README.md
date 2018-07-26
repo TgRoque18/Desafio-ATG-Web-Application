@@ -1,27 +1,45 @@
+# Desafio ATG
+
+## O desafio.
+
+O desafio resume-se a entregar duas ferramentas:
+- Página Web;
+- API C#;
+
+A página envia dados para a API e a API envia uma requisição para um serviço RabbitMQ.
+
+## O desenvolvimento da página web com Angular CLI.
+
+Página Web:
+Essa foi desenvolvida usando Angular CLI, em linguagem TypeScript. A solução envia uma requisição POST para a API C#.
+
+## A API em C#
+Para olhar a API em C# clique no link: https://github.com/TgRoque18/Desafio-ATG-Web-API
+
 # WebApplication
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 6.0.8.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Execute `ng serve` para um servidor dev. Navegue em `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute `ng generate component component-name` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Execute `ng build` to build the project. Os artefatos de build serão armazenados no diretório `dist/`. Use a flag `--prod` para gerar a build de produção.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute `ng test` para rodar os testes unitários via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Execute `ng e2e` para rodar os testes end-to-end via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Para mais informações do Angular CLI use `ng help` ou dê uma olhadinha em [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
